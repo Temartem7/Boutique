@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T20:06:32 EDT" name="CrossBrowser" finished-at="2022-10-06T20:06:55 EDT" duration-ms="22895">
+    <groups>
+      <group name="Smoke">
+        <method signature="Index_Test.Logo_Test()[pri:0, instance:com.testcases.Index_Test@15bb5034]" name="Logo_Test" class="com.testcases.Index_Test"/>
+        <method signature="Index_Test.test_StoreTitle()[pri:0, instance:com.testcases.Index_Test@15bb5034]" name="test_StoreTitle" class="com.testcases.Index_Test"/>
+        <method signature="Index_Test.Logo_Test()[pri:0, instance:com.testcases.Index_Test@8458f04]" name="Logo_Test" class="com.testcases.Index_Test"/>
+        <method signature="Index_Test.test_StoreTitle()[pri:0, instance:com.testcases.Index_Test@8458f04]" name="test_StoreTitle" class="com.testcases.Index_Test"/>
+        <method signature="Index_Test.Logo_Test()[pri:0, instance:com.testcases.Index_Test@2cb4893b]" name="Logo_Test" class="com.testcases.Index_Test"/>
+        <method signature="Index_Test.test_StoreTitle()[pri:0, instance:com.testcases.Index_Test@2cb4893b]" name="test_StoreTitle" class="com.testcases.Index_Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-10-06T20:06:32 EDT" name="EdgeTest" finished-at="2022-10-06T20:06:48 EDT" duration-ms="15715">
+      <class name="com.testcases.Index_Test">
+        <test-method is-config="true" signature="Load_Configuration()[pri:0, instance:com.testcases.Index_Test@2cb4893b]" started-at="2022-10-06T20:06:32 EDT" name="Load_Configuration" finished-at="2022-10-06T20:06:32 EDT" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Load_Configuration -->
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.testcases.Index_Test@2cb4893b]" started-at="2022-10-06T20:06:32 EDT" name="Setup" finished-at="2022-10-06T20:06:38 EDT" duration-ms="6096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Logo_Test()[pri:0, instance:com.testcases.Index_Test@2cb4893b]" started-at="2022-10-06T20:06:38 EDT" name="Logo_Test" finished-at="2022-10-06T20:06:39 EDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo_Test -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testcases.Index_Test@2cb4893b]" started-at="2022-10-06T20:06:39 EDT" name="Teardown" finished-at="2022-10-06T20:06:40 EDT" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.testcases.Index_Test@2cb4893b]" started-at="2022-10-06T20:06:40 EDT" name="Setup" finished-at="2022-10-06T20:06:47 EDT" duration-ms="6630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="test_StoreTitle()[pri:0, instance:com.testcases.Index_Test@2cb4893b]" started-at="2022-10-06T20:06:47 EDT" name="test_StoreTitle" finished-at="2022-10-06T20:06:47 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_StoreTitle -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testcases.Index_Test@2cb4893b]" started-at="2022-10-06T20:06:47 EDT" name="Teardown" finished-at="2022-10-06T20:06:48 EDT" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="After_Suite()[pri:0, instance:com.testcases.Index_Test@2cb4893b]" started-at="2022-10-06T20:06:55 EDT" name="After_Suite" finished-at="2022-10-06T20:06:56 EDT" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Suite -->
+      </class> <!-- com.testcases.Index_Test -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-10-06T20:06:32 EDT" name="ChromeTest" finished-at="2022-10-06T20:06:48 EDT" duration-ms="15744">
+      <class name="com.testcases.Index_Test">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.testcases.Index_Test@15bb5034]" started-at="2022-10-06T20:06:32 EDT" name="Setup" finished-at="2022-10-06T20:06:39 EDT" duration-ms="6309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Logo_Test()[pri:0, instance:com.testcases.Index_Test@15bb5034]" started-at="2022-10-06T20:06:39 EDT" name="Logo_Test" finished-at="2022-10-06T20:06:39 EDT" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo_Test -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testcases.Index_Test@15bb5034]" started-at="2022-10-06T20:06:39 EDT" name="Teardown" finished-at="2022-10-06T20:06:40 EDT" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.testcases.Index_Test@15bb5034]" started-at="2022-10-06T20:06:40 EDT" name="Setup" finished-at="2022-10-06T20:06:47 EDT" duration-ms="6676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="test_StoreTitle()[pri:0, instance:com.testcases.Index_Test@15bb5034]" started-at="2022-10-06T20:06:47 EDT" name="test_StoreTitle" finished-at="2022-10-06T20:06:47 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_StoreTitle -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testcases.Index_Test@15bb5034]" started-at="2022-10-06T20:06:47 EDT" name="Teardown" finished-at="2022-10-06T20:06:48 EDT" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.testcases.Index_Test -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-10-06T20:06:32 EDT" name="FireFoxTest" finished-at="2022-10-06T20:06:55 EDT" duration-ms="22895">
+      <class name="com.testcases.Index_Test">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.testcases.Index_Test@8458f04]" started-at="2022-10-06T20:06:32 EDT" name="Setup" finished-at="2022-10-06T20:06:43 EDT" duration-ms="10659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Logo_Test()[pri:0, instance:com.testcases.Index_Test@8458f04]" started-at="2022-10-06T20:06:43 EDT" name="Logo_Test" finished-at="2022-10-06T20:06:43 EDT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo_Test -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testcases.Index_Test@8458f04]" started-at="2022-10-06T20:06:43 EDT" name="Teardown" finished-at="2022-10-06T20:06:45 EDT" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.testcases.Index_Test@8458f04]" started-at="2022-10-06T20:06:45 EDT" name="Setup" finished-at="2022-10-06T20:06:54 EDT" duration-ms="8149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="test_StoreTitle()[pri:0, instance:com.testcases.Index_Test@8458f04]" started-at="2022-10-06T20:06:54 EDT" name="test_StoreTitle" finished-at="2022-10-06T20:06:54 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_StoreTitle -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testcases.Index_Test@8458f04]" started-at="2022-10-06T20:06:54 EDT" name="Teardown" finished-at="2022-10-06T20:06:55 EDT" duration-ms="1620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.testcases.Index_Test -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- CrossBrowser -->
+</testng-results>

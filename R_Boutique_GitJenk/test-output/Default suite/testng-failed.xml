@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testcases.Home_Test">
+        <methods>
+          <include name="WishList_Test"/>
+          <include name="Setup"/>
+          <include name="OrderHistory_Test"/>
+          <include name="Teardown"/>
+          <include name="Load_Configuration"/>
+          <include name="After_Suite"/>
+        </methods>
+      </class> <!-- com.testcases.Home_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
